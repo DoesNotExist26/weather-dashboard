@@ -184,41 +184,6 @@ function App() {
         </div>
       </header>
 
-      <section className="top-grid">
-        <article className="card status-card">
-          <div className="section-heading">
-            <h2>Deployment readiness</h2>
-            <span className="status-pill success">Deployment ready</span>
-          </div>
-          <p className="section-copy">
-            This dashboard is built to ship: clean components, responsive modern layout, secure key proxying, and Vercel-ready serverless routing.
-          </p>
-          <div className="status-list">
-            <div>
-              <strong>Secure proxy</strong>
-              <p>All `/api` requests are routed through the server environment, keeping your key hidden from browser clients.</p>
-            </div>
-            <div>
-              <strong>Direct key mode</strong>
-              <p>Enter a WeatherAI key in the UI to call the API directly from the browser for quick demos and static deployments.</p>
-            </div>
-          </div>
-        </article>
-
-        <article className="card quick-actions">
-          <div className="section-heading">
-            <h2>What you can do</h2>
-            <span className="status-pill accent">Live API demo</span>
-          </div>
-          <ul>
-            <li>Search weather by geographic coordinates.</li>
-            <li>Request AI-generated weather summaries.</li>
-            <li>Register webhook alerts for rain, wind, frost, and drought.</li>
-            <li>Inspect account usage and plan details.</li>
-          </ul>
-        </article>
-      </section>
-
       <section className="card api-key-card">
         <h2>API mode</h2>
         <p className="section-copy">
